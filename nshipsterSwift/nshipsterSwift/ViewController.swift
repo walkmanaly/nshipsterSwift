@@ -8,14 +8,26 @@
 
 import UIKit
 
+
+
 class ViewController: UIViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 //        print("hello world")
 //        gcdDemo1()
-        gcdDemo4()
+//        gcdDemo5()
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        let secvc = TestClosureViewController()
+        secvc.secClosure = {(str : String) -> Void in
+            print(str)
+        }
+        navigationController?.pushViewController(secvc, animated: true)
     }
     
     func gcdDemo1() -> Void {
@@ -76,6 +88,20 @@ class ViewController: UIViewController {
             sleep(3)
         }
         print("after")
+    }
+    
+    func gcdDemo5() {
+        let queue = DispatchQueue(label: "com.nick.demo5", qos: DispatchQoS.default, attributes: DispatchQueue.Attributes.concurrent, autoreleaseFrequency: DispatchQueue.AutoreleaseFrequency.never, target: nil)
+        
+        queue.async {
+            // 开启子线程下载图片
+            print("download image")
+            sleep(2)
+            DispatchQueue.main.sync {
+                // 回到主线程更新UI
+                print("set image")
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {

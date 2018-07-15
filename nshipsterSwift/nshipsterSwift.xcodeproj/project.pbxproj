@@ -14,6 +14,7 @@
 		017BDFCE20F7B8390064403D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017BDFCC20F7B8390064403D /* LaunchScreen.storyboard */; };
 		017BDFD920F7B83A0064403D /* nshipsterSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017BDFD820F7B83A0064403D /* nshipsterSwiftTests.swift */; };
 		017BDFE420F7B83A0064403D /* nshipsterSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017BDFE320F7B83A0064403D /* nshipsterSwiftUITests.swift */; };
+		017BDFF520FB045E0064403D /* TestClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017BDFF420FB045E0064403D /* TestClosureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		017BDFDF20F7B83A0064403D /* nshipsterSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nshipsterSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		017BDFE320F7B83A0064403D /* nshipsterSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nshipsterSwiftUITests.swift; sourceTree = "<group>"; };
 		017BDFE520F7B83A0064403D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		017BDFF420FB045E0064403D /* TestClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClosureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				017BDFC320F7B8380064403D /* AppDelegate.swift */,
 				017BDFC520F7B8380064403D /* ViewController.swift */,
+				017BDFF420FB045E0064403D /* TestClosureViewController.swift */,
 				017BDFC720F7B8380064403D /* Main.storyboard */,
 				017BDFCA20F7B8390064403D /* Assets.xcassets */,
 				017BDFCC20F7B8390064403D /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				017BDFF520FB045E0064403D /* TestClosureViewController.swift in Sources */,
 				017BDFC620F7B8380064403D /* ViewController.swift in Sources */,
 				017BDFC420F7B8380064403D /* AppDelegate.swift in Sources */,
 			);
