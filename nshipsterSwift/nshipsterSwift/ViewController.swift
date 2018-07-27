@@ -19,6 +19,8 @@ class ViewController: UIViewController {
 //        print("hello world")
 //        gcdDemo1()
 //        gcdDemo5()
+        let vc = HGMWKWebViewController()
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
