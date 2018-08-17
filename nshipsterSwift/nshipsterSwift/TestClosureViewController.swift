@@ -23,6 +23,11 @@ class TestClosureViewController: UIViewController {
         }
         
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("viewDidAppear")
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

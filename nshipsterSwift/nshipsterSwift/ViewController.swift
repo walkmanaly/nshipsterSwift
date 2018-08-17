@@ -21,6 +21,11 @@ class ViewController: UIViewController {
 //        gcdDemo5()
     }
     
+    override func viewDidDisappear(_ animated: Bool) {
+        super .viewDidDisappear(animated)
+        print("viewDidDisappear")
+    }
+    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
         let secvc = TestClosureViewController()
@@ -41,30 +46,31 @@ class ViewController: UIViewController {
     
     func gcdDemo2() {
         // 调度组
-        let queue = DispatchGroup()
+        let groupQueue = DispatchGroup()
         
         // 创建一个并发队列
         let qos = DispatchQoS.default
         let attr = DispatchQueue.Attributes.concurrent
         let fre = DispatchQueue.AutoreleaseFrequency.never
         let queue1 = DispatchQueue(label: "com.nick.demo", qos: qos, attributes: attr, autoreleaseFrequency: fre, target: nil)
-        // 将事件添加到调度组，队列异步执行事件
-        queue1.async(group: queue) {
+        
+        // 将任务添加到调度组，队列异步执行事件
+        queue1.async(group: groupQueue) {
             sleep(2)
             print(2)
         }
         
-        queue1.async(group: queue) {
+        queue1.async(group: groupQueue) {
             sleep(1)
             print(1)
         }
         
-        queue1.async(group: queue) {
+        queue1.async(group: groupQueue) {
             sleep(3)
             print(3)
         }
         
-        queue.notify(queue: queue1) {
+        groupQueue.notify(queue: queue1) {
             print("all is done")
         }
     }
