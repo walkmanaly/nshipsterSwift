@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		013E25B0212C66EE00E39872 /* VarAndLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E25AF212C66EE00E39872 /* VarAndLet.swift */; };
+		013E25B2212C6C4C00E39872 /* ControlFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E25B1212C6C4C00E39872 /* ControlFlow.swift */; };
 		0171E5CA210ABA7F0033688F /* HGMWKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171E5C9210ABA7F0033688F /* HGMWKWebViewController.swift */; };
 		017BDFC420F7B8380064403D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017BDFC320F7B8380064403D /* AppDelegate.swift */; };
 		017BDFC620F7B8380064403D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017BDFC520F7B8380064403D /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		013E25AF212C66EE00E39872 /* VarAndLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarAndLet.swift; sourceTree = "<group>"; };
+		013E25B1212C6C4C00E39872 /* ControlFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFlow.swift; sourceTree = "<group>"; };
 		0171E5C9210ABA7F0033688F /* HGMWKWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGMWKWebViewController.swift; sourceTree = "<group>"; };
 		017BDFC020F7B8380064403D /* nshipsterSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nshipsterSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		017BDFC320F7B8380064403D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				017BDFC520F7B8380064403D /* ViewController.swift */,
 				017BDFF420FB045E0064403D /* TestClosureViewController.swift */,
 				013E25AF212C66EE00E39872 /* VarAndLet.swift */,
+				013E25B1212C6C4C00E39872 /* ControlFlow.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				017BDFF520FB045E0064403D /* TestClosureViewController.swift in Sources */,
+				013E25B2212C6C4C00E39872 /* ControlFlow.swift in Sources */,
 				013E25B0212C66EE00E39872 /* VarAndLet.swift in Sources */,
 				017BDFC620F7B8380064403D /* ViewController.swift in Sources */,
 				0171E5CA210ABA7F0033688F /* HGMWKWebViewController.swift in Sources */,
