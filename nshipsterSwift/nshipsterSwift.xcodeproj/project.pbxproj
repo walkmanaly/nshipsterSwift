@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		013E25B0212C66EE00E39872 /* VarAndLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E25AF212C66EE00E39872 /* VarAndLet.swift */; };
 		0171E5CA210ABA7F0033688F /* HGMWKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171E5C9210ABA7F0033688F /* HGMWKWebViewController.swift */; };
 		017BDFC420F7B8380064403D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017BDFC320F7B8380064403D /* AppDelegate.swift */; };
 		017BDFC620F7B8380064403D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017BDFC520F7B8380064403D /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		013E25AF212C66EE00E39872 /* VarAndLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarAndLet.swift; sourceTree = "<group>"; };
 		0171E5C9210ABA7F0033688F /* HGMWKWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGMWKWebViewController.swift; sourceTree = "<group>"; };
 		017BDFC020F7B8380064403D /* nshipsterSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nshipsterSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		017BDFC320F7B8380064403D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		013E25AE212C656300E39872 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				017BDFC520F7B8380064403D /* ViewController.swift */,
+				017BDFF420FB045E0064403D /* TestClosureViewController.swift */,
+				013E25AF212C66EE00E39872 /* VarAndLet.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		0171E5C8210ABA5C0033688F /* WKWebview */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,10 +121,9 @@
 		017BDFC220F7B8380064403D /* nshipsterSwift */ = {
 			isa = PBXGroup;
 			children = (
+				013E25AE212C656300E39872 /* Controllers */,
 				0171E5C8210ABA5C0033688F /* WKWebview */,
 				017BDFC320F7B8380064403D /* AppDelegate.swift */,
-				017BDFC520F7B8380064403D /* ViewController.swift */,
-				017BDFF420FB045E0064403D /* TestClosureViewController.swift */,
 				017BDFC720F7B8380064403D /* Main.storyboard */,
 				017BDFCA20F7B8390064403D /* Assets.xcassets */,
 				017BDFCC20F7B8390064403D /* LaunchScreen.storyboard */,
@@ -271,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				017BDFF520FB045E0064403D /* TestClosureViewController.swift in Sources */,
+				013E25B0212C66EE00E39872 /* VarAndLet.swift in Sources */,
 				017BDFC620F7B8380064403D /* ViewController.swift in Sources */,
 				0171E5CA210ABA7F0033688F /* HGMWKWebViewController.swift in Sources */,
 				017BDFC420F7B8380064403D /* AppDelegate.swift in Sources */,
