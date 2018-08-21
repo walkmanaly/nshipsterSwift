@@ -10,6 +10,7 @@
 		013E25B0212C66EE00E39872 /* VarAndLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E25AF212C66EE00E39872 /* VarAndLet.swift */; };
 		013E25B2212C6C4C00E39872 /* ControlFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E25B1212C6C4C00E39872 /* ControlFlow.swift */; };
 		013E25B4212C6DF300E39872 /* Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E25B3212C6DF300E39872 /* Tuple.swift */; };
+		013E25B6212C710A00E39872 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E25B5212C710A00E39872 /* Optional.swift */; };
 		0171E5CA210ABA7F0033688F /* HGMWKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171E5C9210ABA7F0033688F /* HGMWKWebViewController.swift */; };
 		017BDFC420F7B8380064403D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017BDFC320F7B8380064403D /* AppDelegate.swift */; };
 		017BDFC620F7B8380064403D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017BDFC520F7B8380064403D /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 		013E25AF212C66EE00E39872 /* VarAndLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarAndLet.swift; sourceTree = "<group>"; };
 		013E25B1212C6C4C00E39872 /* ControlFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFlow.swift; sourceTree = "<group>"; };
 		013E25B3212C6DF300E39872 /* Tuple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuple.swift; sourceTree = "<group>"; };
+		013E25B5212C710A00E39872 /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
 		0171E5C9210ABA7F0033688F /* HGMWKWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGMWKWebViewController.swift; sourceTree = "<group>"; };
 		017BDFC020F7B8380064403D /* nshipsterSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nshipsterSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		017BDFC320F7B8380064403D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				013E25AF212C66EE00E39872 /* VarAndLet.swift */,
 				013E25B1212C6C4C00E39872 /* ControlFlow.swift */,
 				013E25B3212C6DF300E39872 /* Tuple.swift */,
+				013E25B5212C710A00E39872 /* Optional.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				0171E5CA210ABA7F0033688F /* HGMWKWebViewController.swift in Sources */,
 				013E25B4212C6DF300E39872 /* Tuple.swift in Sources */,
 				017BDFC420F7B8380064403D /* AppDelegate.swift in Sources */,
+				013E25B6212C710A00E39872 /* Optional.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
