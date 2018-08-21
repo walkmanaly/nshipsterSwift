@@ -11,8 +11,8 @@ import Foundation
 struct Test {
     var name: String; var age: Int
     let genser: Bool
-    let min = UInt8.min
-    let max = UInt8.max
+    let min = UInt8.min     // 0
+    let max = UInt8.max     // 255
     
     /*
      A decimal number, with no prefix           十进制
@@ -25,6 +25,15 @@ struct Test {
     let binaryNumber = 0b10001
     let octalNumber = 0o21
     let hexadecimalNumber = 0x11
+    
+    /*
+     Integer Conversion
+     同类型的数据才能进行运算，不同类型要转换后才能运算
+     */
+    var twoThounsand: UInt16 = 2_000
+    var one: UInt8 = 1
+    //let result = twoThounsand + UInt16(one)
+    
 }
 
 
