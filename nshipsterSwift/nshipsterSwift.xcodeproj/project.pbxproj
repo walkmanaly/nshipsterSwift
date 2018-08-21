@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		013E25B0212C66EE00E39872 /* VarAndLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E25AF212C66EE00E39872 /* VarAndLet.swift */; };
 		013E25B2212C6C4C00E39872 /* ControlFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E25B1212C6C4C00E39872 /* ControlFlow.swift */; };
+		013E25B4212C6DF300E39872 /* Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E25B3212C6DF300E39872 /* Tuple.swift */; };
 		0171E5CA210ABA7F0033688F /* HGMWKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171E5C9210ABA7F0033688F /* HGMWKWebViewController.swift */; };
 		017BDFC420F7B8380064403D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017BDFC320F7B8380064403D /* AppDelegate.swift */; };
 		017BDFC620F7B8380064403D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017BDFC520F7B8380064403D /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		013E25AF212C66EE00E39872 /* VarAndLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarAndLet.swift; sourceTree = "<group>"; };
 		013E25B1212C6C4C00E39872 /* ControlFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFlow.swift; sourceTree = "<group>"; };
+		013E25B3212C6DF300E39872 /* Tuple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuple.swift; sourceTree = "<group>"; };
 		0171E5C9210ABA7F0033688F /* HGMWKWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGMWKWebViewController.swift; sourceTree = "<group>"; };
 		017BDFC020F7B8380064403D /* nshipsterSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nshipsterSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		017BDFC320F7B8380064403D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				017BDFF420FB045E0064403D /* TestClosureViewController.swift */,
 				013E25AF212C66EE00E39872 /* VarAndLet.swift */,
 				013E25B1212C6C4C00E39872 /* ControlFlow.swift */,
+				013E25B3212C6DF300E39872 /* Tuple.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -221,13 +224,16 @@
 				TargetAttributes = {
 					017BDFBF20F7B8380064403D = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 					};
 					017BDFD320F7B83A0064403D = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 						TestTargetID = 017BDFBF20F7B8380064403D;
 					};
 					017BDFDE20F7B83A0064403D = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 						TestTargetID = 017BDFBF20F7B8380064403D;
 					};
 				};
@@ -289,6 +295,7 @@
 				013E25B0212C66EE00E39872 /* VarAndLet.swift in Sources */,
 				017BDFC620F7B8380064403D /* ViewController.swift in Sources */,
 				0171E5CA210ABA7F0033688F /* HGMWKWebViewController.swift in Sources */,
+				013E25B4212C6DF300E39872 /* Tuple.swift in Sources */,
 				017BDFC420F7B8380064403D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,7 +479,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cn.nick.nshipsterSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -491,7 +498,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cn.nick.nshipsterSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -511,7 +518,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cn.nick.nshipsterSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nshipsterSwift.app/nshipsterSwift";
 			};
@@ -532,7 +539,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cn.nick.nshipsterSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nshipsterSwift.app/nshipsterSwift";
 			};
@@ -552,7 +559,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cn.nick.nshipsterSwiftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = nshipsterSwift;
 			};
@@ -572,7 +579,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cn.nick.nshipsterSwiftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = nshipsterSwift;
 			};
